@@ -74,6 +74,15 @@ class FunctionsTests extends TestCase
         $this->assertEquals($expected, $case);
     }
 
+
+    public function testMalformedDisplayRecords()
+    {
+
+        $this->expectException(TypeError::class);
+        $input = 53675376;
+        $case = displayRecords($input);
+    }
+
 }
 
-    
+
