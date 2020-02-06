@@ -1,0 +1,134 @@
+.surround {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 400px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.band {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.band img {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 500px;
+    overflow: hidden;
+    border: 5px solid;
+
+}
+
+.info {
+    text-align: center;
+    border: 5px solid;
+    padding: 3.5% 0 5% 0;
+    height: 100%;
+    width: 500px;
+    vertical-align: middle;
+}
+
+
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/badManners2.jpg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist: Bad Manners</p>
+                <p>Song title: Lip up fatty</p>
+                <p>Year of release: 1980</p>
+                <p>Genre: Ska</p>
+                <a href="https://youtu.be/F6fQnTyEniM">Listen on Youtube</a>
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/bobbyWomack3.jpeg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist: Bobby Womack</p>
+                <p>Song title: Woman's gotta have it</p>
+                <p>Year of release: 1972</p>
+                <p>Genre: Soul</p>
+                <a href="https://youtu.be/X23t2MCZsHE">Listen on Youtube</a>
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/everlyBros1.jpg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist: The Everly Brothers</p>
+                <p>Song title: (Till) I kissed you</p>
+                <p>Year of release: 1959</p>
+                <p>Genre: Rock</p>
+                <a href="https://youtu.be/Tm_W0ztUMms">Listen on Youtube</a>
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/joeSouth4.jpg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist: Joe South</p>
+                <p>Song title: These are not my people</p>
+                <p>Year of release: 1968</p>
+                <p>Genre: Rock</p>
+                <a href="https://youtu.be/pI3PibhZTq8">Listen on Youtube</a>
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/lightfoot2.jpg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist:  Gordon Lightfoot</p>
+                <p>Song title: If you could read my mind</p>
+                <p>Year of release: 1970</p>
+                <p>Genre: Singer-Songwriter</p>
+                <a href="https://youtu.be/v5tr_L31StI">Listen on Youtube</a>
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="band">
+                <img src="../images/tams2.jpg">
+            </div>
+        </div>
+
+        <div class="surround">
+            <div class="info">
+                <p>Artist: The Tams</p>
+                <p>Song title: Be young, be foolish, be happy</p>
+                <p>Year of release: 1968</p>
+                <p>Genre: Soul</p>
+                <a href="https://youtu.be/Ezpae7vk4Bo">Listen on Youtube</a>
+            </div>
+        </div>

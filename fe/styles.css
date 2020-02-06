@@ -93,7 +93,7 @@ a {
     border: 5px solid RGB(255,255,255);
 }
 
-footer a{
+footer a {
     display: block;
     margin-top: 20px;
 }
@@ -126,12 +126,20 @@ footer {
 }
 
 @media only screen and (max-width: 850px) {
+   header{
+       height: 270px;
+   }
+
+    h1 {
+        line-height: 200px;
+    }
+
     img {
         display: block;
         border: 5px solid;
         margin-left: 0;
         margin-right: auto;
-        height: 330px;
+        height: 270px;
         width: 100%;
     }
 
@@ -143,8 +151,8 @@ footer {
         border: 5px solid black;
         width: 100%;
         margin: 0;
-        height: 330px;
-        line-height: 300%;
+        height: 270px;
+        line-height: 250%;
         margin-left: auto;
         margin-right: 0;
     }
@@ -155,7 +163,12 @@ footer {
 
     .surround{
         background: RGB(255,255,255);
-        background-size: 330px;
+        background-size: 270px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 10px;
     }
 }
 
@@ -166,13 +179,27 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+   header {
+       height: 200px;
+   }
+
     header h1 {
         font-size: 3em;
+        line-height: 200px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 2em;
     }
 
     .surround{
         background: RGB(255,255,255);
-        background-size: 330px;
+        background-size: 200px;
     }
 
     img {
@@ -180,13 +207,41 @@ footer {
         border: 5px solid;
         margin-left: 0;
         margin-right: auto;
-        height: 330px;
+        height: 200px;
         width: 100%;
+    }
+
+    #info {
+        height: 200px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    #info ul {
+        font-size: 0.5em;
+        height: 200px;
+    }
+
+    .floater a {
+        background-color: RGBA(0,0,0,0);
+        color: RGB(255,255,255);
+        font-size: 1.2em;
+        padding: 1px 3px 1px 3px;
+        border: 2px solid RGB(255,255,255);
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     header h1 {
-        font-size: 2em;
+        font-size: 1.5em;
+        line-height: 200px;
+    }
+
+    .floater {
+     width: 100%;
+ }
+
+    #info ul {
+        font-size: 0.7em;
     }
 }
