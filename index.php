@@ -1,6 +1,6 @@
 <?php
- require_once '../be/dbcon.php';
- require_once '../be/functions.php';
+ require_once 'be/dbcon.php';
+ require_once 'be/functions.php';
 
  $db = connectTodb();
  $records = getAllRecords($db);
@@ -12,8 +12,8 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="normalize.css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="fe/normalize.css">
+        <link rel="stylesheet" type="text/css" href="fe/styles.css">
         <meta name="viewport" content="width=device-width">
         <title>Record Collection</title>
     </head>

@@ -2,8 +2,6 @@
 /*
  * Creates connection to database
  *
- * @param N/A
- *
  * @return $db MySql db connection
  */
 function connectToDb()
