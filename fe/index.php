@@ -3,12 +3,8 @@
  require_once '../be/functions.php';
 
  $db = connectTodb();
-
- //var_dump($db);
-
- //var_dump(getAllRecords($db));
-$records = getAllRecords($db);
-$recordHtml = displayRecords($records);
+ $records = getAllRecords($db);
+ $recordHtml = displayRecords($records);
  ?>
 
 

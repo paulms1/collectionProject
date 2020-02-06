@@ -1,7 +1,12 @@
 <?php
 
 
-
+/* Gets record data from database
+ *
+ * @param $db the database connection
+ *
+ * @return array of record data
+ */
 function getAllRecords($db)
 {
     $query = $db->prepare("SELECT `band`, `song`, `year`, `genre`, `link`, `image` FROM `record_collection`;");
@@ -11,7 +16,13 @@ function getAllRecords($db)
 };
 
 
-
+/*
+ * Displays record data on page in html
+ *
+ * @param $records calls getAllRecords function which contain record data array
+ *
+ * @return html with dynamic data from database
+ */
 function displayRecords(array $records): string
 {
         $result = '';
@@ -44,7 +55,5 @@ function displayRecords(array $records): string
         };
 
         return $result;
-
-
 };
 

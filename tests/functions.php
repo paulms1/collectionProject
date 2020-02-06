@@ -75,7 +75,7 @@ class FunctionsTests extends TestCase
     }
 
 
-    public function testMalformedDisplayRecords()
+    public function testMalformedDisplayRecordsInt()
     {
 
         $this->expectException(TypeError::class);

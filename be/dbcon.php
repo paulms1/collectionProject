@@ -1,5 +1,11 @@
 <?php
-
+/*
+ * Creates connection to database
+ *
+ * @param N/A
+ *
+ * @return $db MySql db connection
+ */
 function connectToDb()
 {
     $db = new PDO('mysql:host=db; dbname=paul_collection', 'root', 'password');
