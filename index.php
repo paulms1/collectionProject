@@ -29,7 +29,7 @@
 
     </main>
     <footer>
-        <a class="addRecord" href="#">ADD A RECORD TO THE COLLECTION</a>
+        <a class="addRecord" href="http://localhost:1234/week5/collectionProject/story2/form.php">ADD A RECORD TO THE COLLECTION</a>
         <a href="#">stevenson.paulmichael@gmail.com</a>
         <a href="#">Back to top</a>
     </footer>

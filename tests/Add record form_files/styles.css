@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+body {
+    background: url('../images/recordsHero.jpg') center center no-repeat;
+    background-size: auto 100%;
+    color: RGB(255,255,255);
+    padding-top: 4%;
+}
+
+body h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+input {
+    display: block;
+    margin: 0.5% auto 3% auto;
+    width: 40%;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.submitButton {
+    background-color: RGB(255,255,255);
+    width: 10%;
+}
